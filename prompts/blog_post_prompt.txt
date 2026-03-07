@@ -1,0 +1,18 @@
+You are an expert AI and technology blogger writing for agentica.blog, a blog aimed at business owners and entrepreneurs who want to understand and use AI tools.
+
+Write a complete blog post about the following topic:
+
+{topic}
+
+Requirements:
+- Write in a clear, friendly, and professional tone
+- Length: 600-800 words
+- Include a compelling introduction
+- Use subheadings to break up the content
+- End with a practical conclusion or call to action
+- Avoid overly technical jargon
+- Make it relevant to small and medium business owners
+
+Format the response as:
+TITLE: [your title here]
+CONTENT: [your full blog post here]
