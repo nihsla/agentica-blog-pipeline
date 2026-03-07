@@ -99,9 +99,9 @@ Every post on that site was generated and published through this system.
 
 I build and configure custom versions of this pipeline for clients. If you want consistent, AI-generated content publishing to your own site:
 
-📩 **[Contact me](https://agentica.blog/contact)**
+📩 **[Contact me](mailto:nihsla@gmail.com)**
 
 ---
 
-*Built by Albert Shin — AI Consultant & Web Specialist based in Korea.*  
+*Built by Albert Shin — AI Consultant & Web Specialist based in Korea and the US.*  
 *Specializing in AI-powered automation for Korean and international businesses.*
