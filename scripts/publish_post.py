@@ -1,5 +1,6 @@
 import requests
 import os
+import markdown
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -11,9 +12,11 @@ def publish_to_wordpress(title, content):
     
     endpoint = f"{url}/wp-json/wp/v2/posts"
     
+    html_content = markdown.markdown(content)
+    
     post_data = {
         "title": title,
-        "content": content,
+        "content": html_content,
         "status": "draft"
     }
     
