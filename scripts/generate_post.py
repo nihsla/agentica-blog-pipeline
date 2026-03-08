@@ -8,7 +8,19 @@ load_dotenv()
 def get_next_topic():
     with open("config/topics.json", "r") as f:
         data = json.load(f)
-    return data["topics"][0]
+    
+    topics = data["topics"]
+    current_index = data.get("current_index", 0)
+    
+    topic = topics[current_index]
+    
+    next_index = (current_index + 1) % len(topics)
+    data["current_index"] = next_index
+    
+    with open("config/topics.json", "w") as f:
+        json.dump(data, f, indent=2)
+    
+    return topic
 
 def generate_post(topic):
     with open("prompts/blog_post_prompt.txt", "r") as f:
